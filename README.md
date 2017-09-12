@@ -1,2 +1,1 @@
-# Yeni-ba-lang-
-Linux'da exe çalıştırma kodları
+Github'da yeniyim yorumlarınızı esirgmeyin
