@@ -1,0 +1,16 @@
+Terminal Açalım (Ctrl+Alt+T) ardından şu kodu yapıştırıp enterlayınız.
+sudo add-apt-repository ppa:wine/wine-builds
+Ardından terminalde sırasıyla kodları yapıştırın
+sudo apt-get update
+sudo apt-get install --install-recommends winehq-devel
+sudo winecfg
+wget https://dl.winehq.org/wine/source/1.9/wine-1.9.19.tar.bz2
+sudo tar jxf wine-1.9.19.tar.bz2
+cd wine-1.9.19/
+sudo apt-get install flex bison
+./configure --without-x --without-freetype
+make
+make install
+kodlarla terminalde güncelleme ve yükseltme için bu önceden yükleme yapanlar için geçerli
+sudo apt-get update
+sudo apt-get upgrade
